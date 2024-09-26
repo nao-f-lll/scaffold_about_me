@@ -131,8 +131,8 @@ fun Scaffold() {
 
                     Text(
                         modifier = Modifier
-                            .padding(15.dp)
-                            .width(350.dp),
+                            .padding(0.dp)
+                            .fillMaxWidth(),
                         textAlign = TextAlign.Center,
                         fontSize = 30.sp,
                         text = "Naoufal Lyamani"
